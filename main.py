@@ -26,7 +26,7 @@ class ListenLinda:
         self.api = openai_api.LindaOpenAI()
         self.input = input.LindaInput(mic=self.mic, stdin=self.stdin)
         self.output = output.LindaOutput(speak=self.speak, stdout=self.stdout)
-    
+        
 
     def _match_phrases(self, test_input: str, expected_output: list()) -> list:
         print(f'test_input: {test_input}')
@@ -120,5 +120,4 @@ if __name__ == '__main__':
         speak=args.speak if args.speak else False, 
         stdout=args.stdout if args.stdout else False
     )
-
     linda.run()
