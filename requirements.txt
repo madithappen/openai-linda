@@ -1,0 +1,10 @@
+pyttsx3
+requests
+json
+pyaudio
+speech_recognition
+openai
+time
+argparse
+sys
+pyglet
