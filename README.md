@@ -32,14 +32,14 @@ python3 listen_linda.py [--stdin] [--mic] [--stdout] [--speak]
 To accept input from stdin and send output to stdout, use the following command:
 
 ```python
-python3 listen_linda.py --stdin --stdout
+python3 main.py --stdin --stdout
 ```
 
 
 To accept input from the microphone and send output to text-to-speech, use the following command:
 
 ```python
-python3 listen_linda.py --mic --speak
+python3 main.py --mic --speak
 ```
 
 ## License
