@@ -18,7 +18,7 @@ Create a `.env` file in the project root and add the following line: `OPENAI_SEC
 To start the program, use the following command:
 
 ```python
-python3 listen_linda.py [--stdin] [--mic] [--stdout] [--speak]
+python3 main.py [--stdin] [--mic] [--stdout] [--speak]
 ```
 
 ## Arguments
