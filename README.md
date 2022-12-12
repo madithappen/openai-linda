@@ -1,4 +1,4 @@
-# Listen Linda
+# openai-linda
 Listen Linda is a Python3 program for interacting with OpenAI. It accepts input via microphone or stdin and outputs responses via text-to-speech or stdout.
 
 ## Requirements
