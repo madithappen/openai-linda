@@ -9,7 +9,7 @@ Listen Linda is a Python3 program for interacting with OpenAI. It accepts input 
 ## Installation
 Clone this repository to your local machine using `git clone https://github.com/madithappen/listen-linda.git`
 
-Navigate to the cloned repository using cd listen-linda
+Navigate to the cloned repository using `cd listen-linda`
 Install the required Python packages using `pip3 install -r requirements.txt`
 
 Create a `.env` file in the project root and add the following line: `OPENAI_SECRET_KEY=<your-openai-secret-key>`
