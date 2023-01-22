@@ -1,0 +1,6 @@
+pyttsx3
+requests
+pyaudio
+SpeechRecognition
+openai
+pyglet
